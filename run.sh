@@ -7,7 +7,7 @@
 rm -rf /PokemonGoBot
 
 # see https://github.com/jabbink/PokemonGoBot/blob/develop/README.md
-git clone https://github.com/jabbink/PokemonGoBot.git && cd PokemonGoBot
+git clone https://github.com/minibugdev/PokemonGoBot.git && cd PokemonGoBot
 git submodule update --init --recursive
 ./gradlew build
 
